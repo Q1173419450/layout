@@ -1,0 +1,191 @@
+.top-nav{
+	height: 60px;
+	width: 1354px;
+	background-color: #1a1a1a;
+}
+.top-nav .nav{
+	width: 700px;
+	height: 60px;
+	margin-left: 370px;
+} 
+.top-nav .nav ul li{
+	float: left;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	margin: 0 7px;
+}
+.top-nav .porduct{
+	position: relative;
+}
+.top-nav .nav .porduct-ic{
+	background: black;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	display: none;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	border: 1px solid #666;
+}
+.top-nav .porduct:hover .porduct-ic{
+	display: inline-block;
+}
+.top-nav .pic-logo{
+	position: relative;
+	width: 256px;
+	height: 60px;;
+	text-align: center;
+}
+.top-nav .pic-logo a{
+	line-height: 60px;
+	font-size: 20px;
+	position: absolute;
+	left: 0;
+}
+.top-nav .pic-logo img{
+	width: 75px;
+	height: 95px;
+	background-color: #000000;
+	padding: 7px;
+	border: 3px solid #666666;
+	margin-left: 100px;
+}
+/*article*/
+.aboutus{
+	width: 1345px;
+	height: 550px;
+	margin: 0 auto;
+}
+.aboutus h1{
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	margin: 80px 0 40px;
+}
+.aboutus hr{
+	background: url(../img/products-hori-line.png) no-repeat center;
+	border: none;
+	height: 45px;
+}
+.aboutus img{
+	margin-left: 100px;
+	
+}
+.aboutus .aboutus-r{
+	width: 600px;
+	height: 210px;
+	margin-left: 200px;
+	line-height: 20px;
+	color: #000;
+}
+.aboutus .aboutus-r p{
+	margin-bottom: 20px;
+}
+
+
+/*join us*/
+.joinus{
+	height: 320px;
+}
+.joinus h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.joinus ul{
+	width: 1200px;
+	margin-left:50px ;
+}
+.joinus ul li{
+	float: left;
+	margin:0 20px;
+	width: 46%;
+}
+.joinus ul .al{
+	text-align: left;
+}
+.joinus ul .ar{
+	text-align: right;
+}
+.joinus br{
+	height: 1px;
+	width: 1200px;
+	border: none;
+}
+.joinus .contact{
+	width: 415px;
+	height: 130px;
+	line-height: 130px;
+	margin: 0 570px;
+}
+.joinus a{
+	display: inline-block;
+	height: 45px;
+	width: 195px;
+	line-height: 45px;
+	font-size: 20px;
+	text-align: center;
+	background: #1dafec;
+	border-radius: 4px;
+}
+/*footer*/
+footer{
+	width: 1354px;
+	height: 485px;
+	background-color: black;
+	margin: 0 auto;
+}
+.footer-qr{
+	width: 453px;
+	height: 150px;
+	margin: 125px 440px 30px;
+}
+.footer-qr ul li{
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+.footer-qr ul li p{
+	color: #fff;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.footermenu{
+	height: 40px;
+	width: 500px;
+	margin:0px 440px;
+}
+.footermenu ul li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin: 5px;
+}
+.footermenu ul li a{
+	color: #fff;
+}
+.footermenu ul .line{
+	width: 2px;
+	height: 20px;
+	color: #fff;
+}
+footer .footer-last{
+	width: 800px;
+	height: 80px;
+	margin: 0 300px;
+}
+footer .footer-last p{
+	height: 80px;
+	line-height: 30px;
+	text-align: center;
+}
+footer .footer-last p a{
+	color: #FFFFFF;
+}

@@ -1,0 +1,276 @@
+.top-nav{
+	height: 60px;
+	width: 1354px;
+	background-color: #1a1a1a;
+}
+.top-nav .nav{
+	width: 700px;
+	height: 60px;
+	margin-left: 370px;
+} 
+.top-nav .nav ul li{
+	float: left;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	margin: 0 7px;
+}
+.top-nav .porduct{
+	position: relative;
+}
+.top-nav .nav .porduct-ic{
+	background: black;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	display: none;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	border: 1px solid #666;
+}
+.top-nav .porduct:hover .porduct-ic{
+	display: inline-block;
+}
+.top-nav .pic-logo{
+	position: relative;
+	width: 256px;
+	height: 60px;;
+	text-align: center;
+}
+.top-nav .pic-logo a{
+	line-height: 60px;
+	font-size: 20px;
+	position: absolute;
+	left: 0;
+}
+.top-nav .pic-logo img{
+	width: 75px;
+	height: 95px;
+	background-color: #000000;
+	padding: 7px;
+	border: 3px solid #666666;
+	margin-left: 100px;
+}
+
+/*header*/
+header{
+	height: 473px;
+	background: url(../img/Micro-Clientkv.jpg) no-repeat center;
+}
+.header{
+	height: 373px;
+	width: 600px;
+	margin: 0 300px;
+	padding-top: 100px;
+}
+.header h1{
+	width: 373px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #fff;
+}
+.header p{
+	width: 286px;
+	height: 115px;
+	color: #fff;
+	line-height: 20px;
+	font-size: 14px;
+	margin-top: 40px;
+}
+.header .header-button{
+	height: 100px;
+}
+.header .header-button a{
+	display: inline-block;
+	width: 160px;
+	height: 45px;
+	background-color: #563171;
+	text-align: center;
+	line-height: 45px;
+	font-size: 20px;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+.header .header-button a:hover{
+	background-color: #63c5e6;
+	color: white;
+}
+
+/*section*/
+.banner{
+	height: 400px;
+	background-color: #1a0829;
+}
+.banner ul{
+	text-align: center;
+	margin-left: 40px;
+}
+.banner ul li{
+	width: 325px;
+	height: 350px;
+	float: left;
+	margin: 50px 50px;
+}
+.banner ul li h3{
+	margin-top: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: white;
+}
+.banner ul li p{
+	margin-top: 30px;
+	color: white;
+}
+
+/*article*/
+article{
+	height: 635px;
+}
+article h2{
+	height: 140px;
+	line-height: 40px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+article .use{
+	height: 429px;
+	margin-left: 50px;
+}
+article .use h3{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	margin-left: 40px;
+}
+article .use ul{
+	width: 210px;
+	height: 75px;
+	line-height: 25px;
+	font-size: 14px;
+	margin: 20px 0 40px 40px;
+}
+
+/*power*/
+.power{
+	height: 573px;
+	background: url(../img/Micro-Client_09.jpg) no-repeat center;
+}
+.power h2{
+	width: 1000px;
+	height: 145px;
+	line-height: 145px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+.power .bg{
+	width: 800px;
+	height: 290px;
+	margin: 80px auto 0;
+}
+.power .bg .bg-power{
+	float: left;
+	width: 380px;
+	height: 135px;
+	margin-left: 20px;
+	color: white;
+}
+.power .bg .bg-power h3{
+	height: 50px;
+	line-height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.power .bg .bg-power span{
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+/*client*/
+.client{
+	height: 530px;
+	text-align: center;
+}
+.client h1{
+	height: 45px;
+	line-height: 45px;
+	font-size: 35px;
+	color: black;
+	font-weight: bold;
+	padding-top: 50px;
+}
+.client h3{
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 40px;
+	color: #b1b1b1;
+}
+/*footer*/
+footer{
+	width: 1354px;
+	height: 485px;
+	background-color: black;
+	margin: 0 auto;
+}
+.footer-qr{
+	width: 453px;
+	height: 150px;
+	margin: 125px 440px 30px;
+}
+.footer-qr ul li{
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+.footer-qr ul li p{
+	color: #fff;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.footermenu{
+	height: 40px;
+	width: 500px;
+	margin:0px 440px;
+}
+.footermenu ul li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin: 5px;
+}
+.footermenu ul li a{
+	color: #fff;
+}
+.footermenu ul .line{
+	width: 2px;
+	height: 20px;
+	color: #fff;
+}
+footer .footer-last{
+	width: 800px;
+	height: 80px;
+	margin: 0 300px;
+}
+footer .footer-last p{
+	height: 80px;
+	line-height: 30px;
+	text-align: center;
+}
+footer .footer-last p a{
+	color: #FFFFFF;

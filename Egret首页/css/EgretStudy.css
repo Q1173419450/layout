@@ -1,0 +1,336 @@
+.top-nav{
+	height: 60px;
+	width: 1354px;
+	background-color: #1a1a1a;
+}
+.top-nav .nav{
+	width: 700px;
+	height: 60px;
+	margin-left: 370px;
+} 
+.top-nav .nav ul li{
+	float: left;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	margin: 0 7px;
+}
+.top-nav .porduct{
+	position: relative;
+}
+.top-nav .nav .porduct-ic{
+	background: black;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	display: none;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	border: 1px solid #666;
+}
+.top-nav .porduct:hover .porduct-ic{
+	display: inline-block;
+}
+.top-nav .pic-logo{
+	position: relative;
+	width: 256px;
+	height: 60px;;
+	text-align: center;
+}
+.top-nav .pic-logo a{
+	line-height: 60px;
+	font-size: 20px;
+	position: absolute;
+	left: 0;
+}
+.top-nav .pic-logo img{
+	width: 75px;
+	height: 95px;
+	background-color: #000000;
+	padding: 7px;
+	border: 3px solid #666666;
+	margin-left: 100px;
+}
+/*header*/
+header{
+	width: 1920px;
+	height: 638px;
+	margin: 0 auto;
+	background: url(../img/study/StudyheaderBg.jpg) no-repeat center;
+}
+.banner{
+	width: 1100px;
+	margin: 0 auto;
+}
+header h1{
+	height: 80px;
+	line-height: 80px;
+	font-size: 50px;
+	padding-top: 200px;
+	color: white;
+}
+header ul{
+	width: 425px;
+	height: 75px;	
+	margin-top: 40px;
+}
+header ul li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: white;
+	margin-right: 20px;
+}
+header a{
+	display:block;
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+header a:hover{
+	box-shadow: 0px 0px 7px #fff;
+	color: #fff;
+}
+
+/*section*/
+section{
+	height: 500px;
+}
+section h1{
+	height: 60px;
+	line-height: 60px;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 40px;
+	color: #2c3e50;
+	font-weight: bold;
+}
+section ul{
+	margin-top: 70px;
+}
+section ul li{
+	float: left;
+	width: 130px;
+	height: 300px;
+	text-align: center;
+	margin: 0 100px;
+}
+section ul li .img-bg{
+	background: url(../img/study/worth-bg1.png) no-repeat center;
+	width: 129px;
+	height: 143px;
+	line-height: 143px;
+	text-align: center;
+}
+section ul li h2{
+	height: 30px;
+	line-height: 30px;
+	font-size: 25px;
+	color:#2c3e50;
+	font-weight: bold;
+	margin-top: 20px;
+}
+section ul li span{
+	display: block;
+	width: 65px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-top: 1px solid #c3c3c3;
+}
+section ul li p{
+	height: 65px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #6f8ea3;
+}
+
+/*article*/
+article{
+	height: 400px;
+	background: url(../img/study/advantage-bg.png) no-repeat center;
+}
+article h1{
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 40px 0 20px;
+}
+article ul{
+	width: 955px;
+	height: 235px;
+	margin: 0 auto;
+}
+article ul li{
+	float: left;
+	width: 350px;
+	margin: 30px 60px;
+}
+article ul li h2{
+	color: white;
+	font-weight: bold;
+}
+article ul li span{
+	display: block;
+	width: 350px;
+	height: 2px;
+	margin: 2px auto 0;
+	border-top: 2px solid white;
+}
+article ul li p{
+	color: white;
+}
+
+/*consociation*/
+.consociation{
+	padding: 70px;
+}
+.consociation h1{
+	height: 60px;
+	line-height: 60px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #000;
+	margin-left: 500px;
+	margin-bottom: 50px;
+}
+
+/*partner*/
+.partner{
+	background: black;
+}
+.partner h1{
+	color: #fff;
+	font-weight: bold;
+	padding-top: 50px;
+	text-align: center;
+}
+/*introduce*/
+.introduce{
+	height: 850px;
+}
+.introduce h1{
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	margin: 70px 0 65px;
+}
+.introduce .course-item{
+	width: 1000px;
+	height: 625px;
+	margin: 0 auto;
+}
+.introduce .course-item .course{
+	width: 225px;
+	border: 1px solid #ecf2f5;
+	text-align: center;
+	margin-right:15px;
+}
+.course .course-type{
+	width: 145px;
+	height: 145px;
+	line-height: 145px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0 auto;
+	background: url(../img/study/introduce-circle.png) no-repeat center;
+}
+.course h3{
+	font-weight: bold;
+	color: #2c3e50;
+	margin: 20px 0px;
+}
+.course ul li h4{
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	background-color: #f4f6f7;
+}
+.course ul li p{
+	width: 160px;
+	color: #6f8ea3;
+	font-size: 14px;
+	margin: 10px auto;
+}
+
+.course ul li .sp{
+	display: table-cell;
+	height: 120px;
+	width: 220px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*footer*/
+footer{
+	width: 1354px;
+	height: 485px;
+	background-color: black;
+	margin: 0 auto;
+}
+.footer-qr{
+	width: 453px;
+	height: 150px;
+	margin: 125px 440px 30px;
+}
+.footer-qr ul li{
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+.footer-qr ul li p{
+	color: #fff;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.footermenu{
+	height: 40px;
+	width: 500px;
+	margin:0px 440px;
+}
+.footermenu ul li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin: 5px;
+}
+.footermenu ul li a{
+	color: #fff;
+}
+.footermenu ul .line{
+	width: 2px;
+	height: 20px;
+	color: #fff;
+}
+footer .footer-last{
+	width: 800px;
+	height: 80px;
+	margin: 0 300px;
+}
+footer .footer-last p{
+	height: 80px;
+	line-height: 30px;
+	text-align: center;
+}
+footer .footer-last p a{
+	color: #FFFFFF;
+}

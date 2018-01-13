@@ -1,0 +1,55 @@
+.carousel{
+    position: relative;
+    overflow: hidden;
+}
+.carousel-ul{
+    position: absolute;
+    top: 0;
+}
+.carousel-ul li{
+    list-style: none;
+    float: left;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    /*margin-left: -75px;*/
+}
+.carousel-indicators li{
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+}
+.carousel-indicators li.carousel-now{
+    border: 1px solid lightcoral;
+}
+.carousel-arrow{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin-top: -25px;
+}
+.carousel-arrow li{
+    list-style: none;
+    width: 30px;
+    height: 65px;
+    /*line-height: 50px;
+    text-align: center;
+    font-size: 30px;*/
+    cursor: pointer;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+.carousel-arrow .carousel-left{
+	background: url(../img/index.png) -82px -145px no-repeat;
+    float: left;
+}
+.carousel-arrow .carousel-right{
+	float: right;
+    background: url(../img/index.png) -120px -145px no-repeat;
+}

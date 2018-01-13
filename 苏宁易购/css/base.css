@@ -1,0 +1,362 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; } 
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+img {border:0;	vertical-align:middle;}
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after{ 
+    content:""; 
+    display:table; 
+} 
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/ 
+} 
+a{color:#666; text-decoration:none; }
+a:hover{color:#ff6600;}
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.w{
+    width: 1000px;
+    margin:0 auto;
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+.al {
+	text-align:left
+}
+.ac {
+	text-align:center
+}
+.ar {
+	text-align:right
+}
+.hide {
+	display:none
+}
+
+/*nav*/
+.header-nav{
+	width: 100%;
+	height: 40px;
+	background-color: #f5f5f5;
+	position: relative;
+	z-index: 1;
+}
+nav{
+	height: 40px;
+	line-height: 40px;
+}
+.nav-left{
+	width: 380px;
+	height: 40px;
+}
+.nav-left ul{
+	
+}
+.nav-left ul li{
+	float: left;
+	position: relative;
+}
+.nav-left ul li .touch-1{
+	height: 40px;
+	padding: 0 10px;
+	margin-left: 10px;
+}
+.nav-left ul li .touch-2{
+	height: 40px;
+	padding: 0 10px;
+}
+.nav-left ul li .touch-3{
+	height: 40px;
+	padding: 0 10px;
+}
+.touch-1:hover{
+	background-color: #fff;
+	/*border: 1px solid #ddd;*/
+}
+.touch-1:hover .dropdown-1{
+	display: block;
+}
+.touch-2:hover{
+	background-color: #fff;
+	/*border: 1px solid #ddd;*/
+}
+.touch-2:hover .dropdown-2{
+	display: block;
+}
+.touch-3:hover{
+	background-color: #fff;
+	/*border: 1px solid #ddd;*/
+}
+.touch-3:hover .dropdown-3{
+	display: block;
+}
+.dropdown-1{
+	width: 930px;
+	height: 230px;
+	background-color: #fff;
+	position: absolute;
+	top: 40px;	
+	left: 10px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	display: none;
+}
+.dropdown-2{
+	width: 120px;
+	height: 90px;
+	background-color: #fff;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	padding-left: 10px;
+	border: 1px solid #ddd;
+	display: none;
+}
+.dropdown-2 a{
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	
+}
+.dropdown-3{
+	width: 130px;
+	height: 120px;
+	background-color: #fff;
+	position: absolute;
+	top: 40px;
+	left: -55px;
+	padding-left: 10px;
+	border: 1px solid #ddd;
+	display: none;
+}
+.dropdown-3 a{
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	
+}
+.dropdown-1 dl{
+	width: 160px;
+	padding-left: 20px;
+	border-right: 1px solid #ddd;
+	float: left;
+}
+.dropdown-1 dl:last-child{
+	border-right:none
+}
+.dropdown-1 dl dt{
+	width: 100%
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.dropdown-1 dd{
+	
+}
+.dropdown-1 dd p{
+	width: 65px;
+	height: 30px;
+	float: left;
+	height: 30px;
+	font-size: 13px;
+	margin-right: 15px;
+	position: relative;
+}
+.dropdown-1 dd p a{
+	position: relative;
+}
+.dropdown-1 dd p .hot{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: url(../img/npbg.png)0 -205px no-repeat;
+}
+
+/*nav-right*/
+.nav-right{
+	width: 560px;
+	height: 40px;
+}
+.nav-right ul{
+}
+.nav-right ul li{
+	float: left;
+	padding: 0 5px;
+	position: relative;
+}
+.register a{
+	color: #ff6600;
+}
+.nav-right ul li.myorder-touch:hover{
+	background-color: #fff;
+}
+.nav-right ul li.myorder-touch:hover .myorder{
+	display: block;
+}
+.myorder{
+	width: 70px;
+	height: 120px;
+	position: absolute;
+	left: 0;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	padding-left: 5px;
+	display: none;
+}
+.myorder ul li{
+	height: 30px;
+	line-height: 30px;
+}
+.myeg{
+	width: 130px;
+	height: 150px;
+	position: absolute;
+	left: 0px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background-color: #FFF;
+	display: none;
+}
+.myeg-top {
+	width: 130px;
+	height: 60px;
+}
+.myeg-top img{
+	border: 1px solid #ddd;
+}
+.myeg-right{
+	width: 60px;
+	height: 50px;
+}
+.myeg-right a{
+	display: block;
+	height: 25px;
+}
+.myeg-right input{
+	width: 60px;
+	height: 25px;
+	background-color: #ffaa00;
+	padding: 5px;
+	margin-top: 9px;
+	border-radius: 5px;
+}
+.myeg-buttom{
+	margin-top: 10px;
+}
+.myeg-buttom ul li{
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+}
+.myeg-buttom ul li i{
+	position: absolute;
+	top: 0;
+	right: -10px;
+	color: burlywood;
+}
+.nav-right ul li.myeg-touch:hover{
+	background-color: #fff;
+}
+.nav-right ul li.myeg-touch:hover .myeg{
+	display: block;
+}
+.spread{
+	width: 510px;
+	height: 200px;
+	position: absolute;
+	left: -440px;
+	border: 1px solid #ddd;
+	background-color: #FFF;
+	padding-left: 5px;
+	display: none;
+}
+.spread img{
+	margin: 10px 10px 0 10px;
+}
+.spread p{
+	width: 167px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.spread .money{
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFAA00;
+}
+.nav-right ul li.spread-touch:hover{
+	background-color: #fff;
+}
+.nav-right ul li.spread-touch:hover .spread{
+	display: block;
+}
+
+/*logo-seach*/
+.logo-search{
+	height: 60px;
+}
+.logo a{
+	width: 190px;
+	height: 60px;
+	display: block;
+	background: url(../img/snlogo.png) no-repeat center;
+}
+.search{
+	width: 410px;
+	height: 60px;
+	position: relative;
+}
+.search-input{
+	width: 270px;
+	height: 30px;
+	margin-top: 15px;
+	padding-left: 30px;
+	border: 1px solid #ff5500;
+}
+.search-btn{
+	display: block;
+	float: left;
+	width: 80px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	margin-top: 15px;
+	background-color: #ff5500;
+}
+.search-btn:hover{
+	color: white;
+}
+.search .icon-search{
+	position: absolute;
+	top: 25px;
+	left: 10px;
+}

@@ -1,0 +1,172 @@
+.top-nav{
+	height: 60px;
+	width: 1354px;
+	background-color: #1a1a1a;
+}
+.top-nav .nav{
+	width: 700px;
+	height: 60px;
+	margin-left: 370px;
+} 
+.top-nav .nav ul li{
+	float: left;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	margin: 0 7px;
+}
+.top-nav .porduct{
+	position: relative;
+}
+.top-nav .nav .porduct-ic{
+	background: black;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	display: none;
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	border: 1px solid #666;
+}
+.top-nav .porduct:hover .porduct-ic{
+	display: inline-block;
+}
+.top-nav .pic-logo{
+	position: relative;
+	width: 256px;
+	height: 60px;;
+	text-align: center;
+}
+.top-nav .pic-logo a{
+	line-height: 60px;
+	font-size: 20px;
+	position: absolute;
+	left: 0;
+}
+.top-nav .pic-logo img{
+	width: 75px;
+	height: 95px;
+	background-color: #000000;
+	padding: 7px;
+	border: 3px solid #666666;
+	margin-left: 100px;
+}
+/*section*/
+
+/*article*/
+.ex-banner{
+	width: 900px;
+	margin: 0 auto;
+	margin-bottom:20px;
+}
+.banner-title{
+	height: 190px;
+	text-align: center;
+	
+}
+.banner-title h1{
+	height: 35px;
+	line-height: 35px;
+	font-size: 30px;
+	color: #000;
+	padding: 60px 0 20px;
+}
+.banner-title p{
+	margin-top:10px ;
+}
+.banner-title p a{
+	color: #0000ee;
+}
+.ex-banner hr{
+	background: url(../img/products-hori-line.png) no-repeat center;
+	height: 35px;
+	border: none;
+	margin-top: 40px;
+}
+.ex-banner ul{
+	width: 900px;
+	margin-bottom:;
+}
+.ex-banner ul li{
+	float: left;
+	width: 265px;
+	height: 385px;
+	margin: 10px 15px;
+	box-shadow: 0px 1px 10px #666;
+}
+.banner-txt{
+	width: 245px;
+	height: 120px;
+	padding: 10px;
+}
+.banner-txt h3{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.banner-txt p{
+	padding-left: 5px;
+	font-size: 10px;
+	font-weight: 500;
+}
+/*footer*/
+footer{
+	width: 1354px;
+	height: 485px;
+	background-color: black;
+	margin: 0 auto;
+}
+.footer-qr{
+	width: 453px;
+	height: 150px;
+	margin: 125px 440px 30px;
+}
+.footer-qr ul li{
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+.footer-qr ul li p{
+	color: #fff;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.footermenu{
+	height: 40px;
+	width: 500px;
+	margin:0px 440px;
+}
+.footermenu ul li{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin: 5px;
+}
+.footermenu ul li a{
+	color: #fff;
+}
+.footermenu ul .line{
+	width: 2px;
+	height: 20px;
+	color: #fff;
+}
+footer .footer-last{
+	width: 800px;
+	height: 80px;
+	margin: 0 300px;
+}
+footer .footer-last p{
+	height: 80px;
+	line-height: 30px;
+	text-align: center;
+}
+footer .footer-last p a{
+	color: #FFFFFF;
+}

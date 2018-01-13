@@ -1,0 +1,164 @@
+/*nav*/
+.all-hook{
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	margin-top: 10px;
+	background-color: #ff9900;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.nav{
+	width: 800px;
+	height: 40px;
+	margin-top: 10px;
+	position:relative;
+}
+.nav ul li{
+	float: left;
+	height: 40px;
+	text-align: center;
+	margin: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+}
+.nav ul li a{
+	color: black;
+}
+.nav ul li a:hover{
+	color: #FF6600;
+}
+.nav ul li span{
+	display: none;
+	width: 28px;
+	height: 10px;
+	margin: 4px auto 0;
+	background: url(../img/index.png) -35px 0 no-repeat;
+}
+.nav ul li .hot{
+	display: block;
+	width: 16px;
+	height: 20px;
+	background: url(../img/index.png) -344px -212px no-repeat;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+}
+.nav .nav-line{
+	width: 50px;
+	height: 50px;
+	background: url(../img/各种轮船插图_03.png) 0 0 no-repeat;
+	position: absolute;
+	bottom: 0px;
+	left: 12px;
+}
+/*section*/
+.section{
+	height: 442px;	
+}
+.section-all{
+	height: 442px;
+}
+.section-left{
+	width: 170px;
+	height: 442px;
+	background-color: #252221;
+}
+.section-left ul li{
+	height: 32px;
+	line-height: 32px;
+	margin-left: 5px;
+}
+.section-left ul li a{
+	color: white;
+}
+.section-left ul li a:hover{
+	color: #FF6600;
+}
+
+/*carousel*/
+.pic img{
+	width: 830px;
+	height: 440px;
+}
+
+/*放大镜*/
+.pronfo-container{
+	height: 960px;
+}
+.pronfo-left{
+	width: 400px;
+	height: 960px;
+}
+.pronfo-left-top{
+	width: 400px;
+	height: 500px;
+	border: 1px solid #ddd;
+}
+.pronfo-top-pic{
+	width: 360px;
+	height: 360px;
+	padding: 20px;
+	position: relative;
+}
+.pronfo-middle{
+	width: 360px;
+	height: 360px;
+	background: url(../img/phone/middle1.jpg) no-repeat;
+}
+.img-shot{
+	width: 200px;
+	height: 200px;
+	opacity: .3;
+	background-color: yellow;
+	filter: alpha(opacity=30);
+	border: 1px solid #ddd;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.pronfo-big{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 15px;
+	left: 380px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	display: none;
+}
+.pronfo-big img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pronfo-small{
+	width: 400px;
+	height: 100px;
+	margin: 30px 0 0 20px;
+}
+.pronfo-small ul li{
+	float: left;
+	border: 1px solid #ddd;
+	margin-right: 10px;
+}
+.pronfo-small ul li:hover{
+	border: 1px solid #ff5500;
+}
+
+.pronfo-left-bottom{
+	width: 400px;
+	height: 45px;
+	background-color: navajowhite;
+}
+
+.pronfo-right{
+	width: 600px;
+	height: 960px;
+	background-color: red
+}

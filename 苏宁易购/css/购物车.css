@@ -1,0 +1,456 @@
+/*地点*/
+.place{
+	margin-top: 10px;
+	border-bottom: 3px solid #ddd;
+}
+.pl{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.right{
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	margin-left: 20px;
+}
+/*登录点击*/
+.sign{
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	margin:0 10px;
+	background: #ff6600;
+	border-radius: 2px;
+}
+.sign a{
+	color: white;
+	font-weight: bold;
+}
+.sign a:hover{
+	color: white;
+}
+/*点击后的登录页面、包括背景、输入*/
+.sign .sign-bg{
+	background-color: #DDD;
+	opacity: .5;
+	filter: Alpha(opacity=50);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 10;
+}
+
+.sign .sign-input{
+	width: 300px;
+	height: 340px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -165px;
+	margin-top: -170px;
+	padding: 0 15px;
+	border: 3px solid #666;
+	display: none;
+	z-index: 20;
+}
+.sign .sign-input .sign-input-top{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #666666;
+	padding: 10px 0;
+	position: relative;
+}
+.sign .sign-input .sign-input-top p{
+	height: 30px;
+	width: 140px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.sign .sign-input .sign-input-top .one{
+	color:#ff6600;
+}
+.sign .sign-input .sign-input-top .two{
+	color: #666;
+}
+.sign .sign-input .sign-input-top .two:hover{
+	color: #ff6600;
+}
+.sign .sign-input .sign-input-top .line{
+	display: #ddd;
+	width: 2px;
+	height: 30px;
+	
+	background-color: #666;
+}
+.sign .sign-input .sign-input-top .icon-guanbi{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 0;
+	right: -10px;
+	cursor: pointer;
+}
+/*可以加按钮颜色变化*/
+.sign .sign-input .logn-name,.logn-pass{
+	width: 280px;
+	height: 40px;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.sign .sign-input .logn-middle{
+	width: 100%;
+	height: 20px;
+	margin-top: 40px;
+}
+.sign .sign-input .logn-middle .logn-check{
+	margin-top: 7px;
+}
+.sign .sign-input .logn-middle .fg{
+	width: 50px;
+	height: 20px;
+}
+.sign .sign-input .logn-middle a{
+	display: block;
+	color: #666;
+	font-weight: 100;
+}
+.sign .sign-input  .logn-middle a:hover{
+	text-decoration: underline;
+	color: #ff6600;
+}
+
+.sign .sign-input .logn-btn{
+	width: 100%;
+	height: 30px;
+	background-color: #ff6600;
+	font-size: 16px;
+	color: white;
+	font-weight:bold ;
+	
+}
+.sign .sign-input .logn-phone{
+	width: 100%;
+	margin-top: 25px;
+}
+.sign .sign-input .logn-phone a{
+	display: block;
+	color: #666;
+	font-weight: 100;
+}
+.sign .sign-input  .logn-phone a:hover{
+	text-decoration: underline;
+	color: #ff6600;
+}
+
+/*菜单头*/
+.cart-top{
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ddd;
+}
+.cart-top .cart-top-all{
+	width: 150px;
+	margin-left: 15px;
+}
+.cart-top .cart-top-all .choice-all{
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin-top: 12px;
+	margin-right: 5px;
+	background: url(../img/lion-cart.png) 0 -20px no-repeat;
+}
+.cart-top .cart-top-details{
+	width: 150px;
+}
+.cart-top .cart-top-spec{
+	width: 150px;
+}
+.cart-top .cart-top-price{
+	width: 100px;
+}
+.cart-top .cart-top-num{
+	width: 100px;
+}
+.cart-top .cart-top-compute{
+	width: 150px;
+}
+.cart-top .cart-top-operation{
+	width: 100px;
+}
+/*购物车主要内容*/
+.cart-body{
+	
+}
+.cart-body .shop{
+	height: 30px;
+	margin-top: 20px;
+}
+.cart-body .shop .shop-choice{
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin: 0 5px 0 15px;
+	background: url(../img/lion-cart.png) 0 -20px no-repeat;
+}
+
+.cart-body .shop .famous-icon{
+	display: block;
+	width: 21px;
+	height: 21px;
+	background: url(../img/lion-cart.png) -182px -138px no-repeat;
+	margin: 0 5px;
+}
+.cart-body .shop .shop-name{
+	height: 21px;
+	line-height: 21px;
+	margin: 0 5px;
+}
+.cart-body .shop .shop-ticket{
+	width: 55px;
+	height: 21px;
+	line-height: 21px;
+	padding-left: 10px;
+	color: white;
+	background: url(../img/lion-cart.png) -20px 0 no-repeat;
+	position: relative;
+	margin: 0 10px;
+}
+.cart-body .shop .icon-moreunfold{
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+/*商品栏*/
+.shop-special{
+}
+.shop-special .shop-specs-can{
+	width: 970px;
+	height: 80px;
+	padding: 20px 15px 10px;
+	border: 1px solid #ccc;
+	margin-bottom: -1px;
+	position: relative;
+}
+/*选择*/
+.shop-special .shop-specs-can .shop-special-choice{
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin: 0 15px;
+	background: url(../img/lion-cart.png) 0 -20px no-repeat;
+}
+/*商品详情*/
+.shop-special .shop-specs-can .shop-special-pic img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ddd;
+	margin-right: 15px;
+}
+/*隐藏动画*/
+.shop-special .shop-specs-can .shop-special-border{
+	width: 150px;
+	height: 110px;
+	position: absolute;
+	top: 0;
+	left:310px;
+	border: 1px dashed #FF6600;
+	display: none;
+}
+.shop-special .shop-specs-can .shop-special-border span{
+	width: 25px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background-color: #FF6600;
+	color: white;
+}
+.shop-similar{
+	display: none;
+}
+.shop-special .shop-specs-can .shop-special-pic .name{
+	width: 150px;
+	height: 85px;
+}
+.shop-special .shop-specs-can .shop-special-pic .name span{
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: url(../img/lion-cart.png) -132px -166px;
+}
+/*规格*/
+.shop-special .shop-specs-can .shop-special-spec{
+	width: 150px;
+	height: 85px;
+	margin-left: 10px;
+}
+/*单价*/
+.shop-special .shop-specs-can .shop-special-price{
+	width: 100px;
+	height: 85px;
+}
+.shop-special .shop-specs-can .shop-special-price span{
+	display: block;
+	width: 60px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+	background-color: #FF6600;
+}
+/*数量*/
+.shop-special .shop-specs-can .shop-special-num{
+	width: 100px;
+	height: 85px;
+}
+.shop-special .shop-specs-can .shop-special-num .num-border{
+	width: 80px;
+	height: 23px;
+}
+.shop-special .shop-specs-can .shop-special-num .num-reduce{
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url(../img/lion-cart.png) -87px -24px no-repeat;
+	cursor: no-drop;
+}
+.shop-special .shop-specs-can .shop-special-num .num-input{
+	width: 30px;
+	height: 20px;
+	line-height: 23px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.shop-special .shop-specs-can .shop-special-num .num-add{
+	display: block;
+	width: 22px;
+	height: 23px;
+	background: url(../img/lion-cart.png) -111px 0 no-repeat;
+	cursor: pointer;
+}
+.shop-special .shop-specs-can .shop-special-num p{
+	width: 60px;
+	height: 40px;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 10px;
+}
+/*小计（元）*/
+.shop-special .shop-specs-can .shop-special-compute{
+	width: 150px;
+	height: 85px;
+}
+/*操作*/
+.shop-special .shop-specs-can .shop-special-operation{
+	width: 100px;
+	height: 85px;
+}
+
+/*苏宁自营*/
+.cart-body .shop .lion-icon{
+	display: block;
+	width: 19px;
+	height: 19px;
+	margin: 0 5px;
+	background: url(../img/lion-cart.png) 0px 0px no-repeat;
+}
+
+/*总价*/
+.settlement{
+	height: 60px;
+	margin-top: 40px;
+	border: 1px solid #ddd;	
+	border-radius: 4px;
+}
+.settle-left{
+	width: 200px;
+}
+.settle-all{
+	width: 50px;
+	height: 30px;
+	margin: 10px 5px 0 20px;
+}
+.settle-all .choice-all{
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin-top: 12px;
+	margin-right: 5px;
+	background: url(../img/lion-cart.png) 0 -20px no-repeat;
+}
+.settle-all p{
+	height: 40px;
+	line-height: 40px;
+}
+.settle-delete{
+	margin-left: 40px;
+	line-height: 60px;
+}
+.settle-delete span{
+	cursor: pointer;
+}
+
+.settle-right{
+	width: 500px;
+	height: 60px;
+}
+.settle-num{
+	width: 100px;
+	margin-right: 20px;
+	padding: 10px 0;
+}
+.settle-reduce{
+	width: 60px;
+	margin-right: 20px;
+	padding: 10px 0;
+}
+.settle-line{
+	display: block;
+	width: 1px;
+	height: 40px;
+	background-color: #ddd;
+	margin: 10px 10px ;
+}
+.settle-total{
+	width: 150px;
+	height: 60px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+.settle-go{
+	width: 129px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #FF6600;
+	border-radius: 4px;
+}
+.settle-go a{
+	color: white;
+}
+.settle-go a:hover{
+	color: white;
+}
+.settle-fixed{
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0 5px 15px 5px #ddd;
+}
+
