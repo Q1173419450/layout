@@ -100,9 +100,10 @@ for(var z=0;z<shopChoices.length;z++){
 		isClick = !isClick;
 		if(isClick){
 			this.style.backgroundPositionY = '-36px';
-			
+            choiceSpecials.style.backgroundPositionY = '-36px';
 		}else{
 			this.style.backgroundPositionY = '-20px';
+            choiceSpecials.style.backgroundPositionY = '-20px';
 		}
 	});
 }
@@ -125,39 +126,82 @@ for(var i=0;i<shopSpecsCan.length;i++){
 	});
 }
 
-/*数量*/
+/*加加，减减*/
 var numBorder = document.getElementsByClassName('num-border')[0];
 //console.info(numBorder);
+//减减按钮
 var numReduce = document.getElementsByClassName('num-reduce')[0];
 //console.info(numReduce)
+//输出按钮
 var numInput = document.getElementsByClassName('num-input')[0];
-var valInp = parseInt(numInput.value)
+var valInp = numInput.value;
 //console.info(valInp);
 //console.info(numInput);
+//加加按钮
 var numAdd = document.getElementsByClassName('num-add')[0];
 //console.info(numAdd);
+//单价（元）
 var shopSpecialCompute = document.getElementsByClassName('shop-special-compute')[0];
-var conpute = shopSpecialCompute.children[1];
-//console.info(conpute);
-
+var compute = shopSpecialCompute.children[1];
+console.info(compute);
+//input的change事件
+addEvent(numInput,'change',function (ev) {
+	e = ev || window.event;
+	if(isNaN(this.value)){
+		this.value = 1;
+	}else if(this.value%1){
+		this.value = Math.round(this.value);
+	}else if(this.value<1){
+		this.value = 1;
+	}else{
+        this.value = parseInt(this.value);
+        compute.innerHTML = this.value * 406 + '.00';
+	}
+	if(this.value>99){
+		this.value = 99;
+		alert('最多购买99件');
+	}
+    if(numInput.value > 1){
+        numReduce.style.cursor = 'pointer';
+        numReduce.style.backgroundPositionY = '0';
+    }
+});
 //加加的点击事件
 addEvent(numAdd,'click',function(){
-	//点击一次加加实现valInp数字加一
-	valInp++
 	//不能超过99
 	if(numInput.value >= 99){
+        numInput.value = 99;
 		alert('不能再加了!');
-		numInput.value = 99;
+	}else{
+        //点击一次加加实现valInp数字加一
+		numInput.value = parseFloat(numInput.value)+1;
+        compute.innerHTML = numInput.value * 406 + '.00';
 	}
-	numInput.value = valInp;
+	//放在加一的后面
+    if(numInput.value > 1){
+        numReduce.style.cursor = 'pointer';
+        numReduce.style.backgroundPositionY = '0';
+    }
 	//获取到conpute的值 * valInp
-	
-})
+});
 
-
-
-
+//判断input.value是否大于1，若大于则可以按下
+/*if(numInput.value > 1){
+    numReduce.style.cursor = 'pointer';
+    numReduce.style.backgroundPositionY = '0';
+}*/
 //减减的点击事件
+addEvent(numReduce,'click',function () {
+	if(numInput.value<=1){
+    	numInput.value = 1;
+        numReduce.style.cursor = 'no-drop';
+        numReduce.style.backgroundPositionY = '-24px';
+    	alert('不能再减了');
+	}else{
+    	numInput.value = parseFloat(numInput.value)-1;
+        compute.innerHTML = numInput.value * 406 + '.00';
+	}
+});
 //点击一次数字实现valInp数字减一
 //当低于1时，还是一
 
